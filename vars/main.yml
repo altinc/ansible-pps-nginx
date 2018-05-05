@@ -1,0 +1,12 @@
+---
+
+# Specific NGINX configuration
+nginx_path: "/etc/nginx"
+nginx_conf: "{{ nginx_path }}/nginx.conf"
+nginx_sites_available: "{{ nginx_path }}/sites-available"
+nginx_sites_enabled: "{{ nginx_path }}/sites-enabled"
+nginx_extra_http_options: |
+  proxy_read_timeout 600s;
+
+# Specific configuration for this role
+nginx_remove_default_vhost: true
