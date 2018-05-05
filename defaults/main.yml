@@ -1,5 +1,5 @@
-nginx_odoo_server: "localhost"
-nginx_odoo_server_aliases: []
+nginx_pps_server: "localhost"
+nginx_pps_server_aliases: []
 # SSL
 ssl_certificate: /etc/ssl/certs/ssl-cert-snakeoil.pem
 ssl_certificate_key: /etc/ssl/private/ssl-cert-snakeoil.key
